@@ -19,8 +19,5 @@ public class Lab
 
 
         }
-    //() -> { Scratchbot.sb_getControllerLeftX();}, 
-    double function() {
-        return Scratchbot.sb_getControllerLeftX();
-    }
+    
 }
