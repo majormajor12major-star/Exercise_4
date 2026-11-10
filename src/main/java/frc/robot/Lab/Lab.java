@@ -8,7 +8,12 @@ public class Lab
 {
     public static void Lab()
         {
-            //code
+        Scratchbot.sb_setRobotMovement(
+        () -> { Scratchbot.sb_getControllerLeftX();}, 
+        ()-> { Scratchbot.sb_getControllerLeftY();}
+        );
+
+
 
 
 
